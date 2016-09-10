@@ -12,8 +12,6 @@ Optimizing Indirect Memory References with milk
 {% for authorid in authorids limit:num_authors_minus_1 %} {% assign author=site.data.authors[authorid] %}[{{ author.name }}]({{ author.site }}), {% endfor %} and 
 [{{site.data.authors[lastauthorid].name}}]({{site.data.authors[lastauthorid].site}})
 
-![Milk](http://groups.csail.mit.edu/commit/images/milk.jpg)
-
 ## Abstract
 Modern applications such as graph and data analytics, when operating on real world data, have working sets much larger than cache capacity and are bottlenecked by DRAM. To make matters worse, DRAM bandwidth is increasing much slower than per CPU core count, while DRAM latency has been virtually stagnant. Parallel applications that are bound by memory bandwidth fail to scale, while applications bound by memory latency draw a small fraction of much-needed bandwidth. While expert programmers may be able to tune important applications by hand through heroic effort, traditional compiler cache optimizations have not been sufficiently aggressive to overcome the growing DRAM gap.
 
