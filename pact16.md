@@ -21,7 +21,6 @@ We evaluate the MILK compiler on parallel implementations of traditional graph a
 
 ## Files
 Paper: [[pdf]]({{site.data.papers.pact16.dlpdf}})
-       [[ACM DL]]{{site.data.papers.pact16.dlsite}}
 
 ## BibTex
     @article{kiriansky:2016,
