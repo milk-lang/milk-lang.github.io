@@ -20,7 +20,8 @@ In this paper, we introduce milk - a C/C++ language extension that allows progra
 We evaluate the MILK compiler on parallel implementations of traditional graph applications, demonstrating performance gains of up to 3x.
 
 ## Files
-Paper: [[pdf]]({{site.data.papers.pact16.paper}})
+Paper: [[pdf]]({{site.data.papers.pact16.dlpdf}})
+       [[ACM DL]]{{site.data.papers.pact16.dlsite}}
 
 ## BibTex
     @article{kiriansky:2016,
